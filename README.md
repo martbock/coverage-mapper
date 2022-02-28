@@ -43,6 +43,25 @@ optional arguments:
   --rsrq
 ```
 
+## Installation
+
+Use a virtual Python environment to install the [required dependencies](requirements.txt).
+Python 3.8 should work fine, while Python 3.9 does not work at the moment.
+
+```sh
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Additionally, you have to install [PROJ](https://proj.org/). For details, have a
+look at their [installation instructions](https://proj.org/install.html). For
+macOS, simply install PROJ with:
+
+```sh
+brew install proj
+```
+
 ## Example Usage
 
 ```sh
