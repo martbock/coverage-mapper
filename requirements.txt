@@ -1,0 +1,6 @@
+pandas==1.3.5
+pyproj==3.3.0
+requests==2.27.0
+matplotlib==3.5.1
+tilemapbase==0.4.7
+numpy==1.22.0
