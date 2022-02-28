@@ -151,7 +151,6 @@ cython_debug/
 out/*
 data/*
 !out/.gitkeep
-!out/example/*.png
 !data/.gitkeep
 
 # macOS

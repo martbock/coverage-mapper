@@ -3,7 +3,7 @@
 CoverageMapper is an open-source tool to visualize cellular radio network
 coverage measurements along with a network operator's claimed coverage.
 
-![Example Usage](./out/graphs/example/coverage-Telekom-NR-100.png)
+![Example Usage](.example/coverage-Telekom-NR-100.png)
 
 ## Supported Network Operators
 
@@ -57,7 +57,7 @@ python main.py \
     --signal-strengths ./data/SIGNAL_STRENGTH.csv
 ```
 
-![Example Usage (RSRP)](./out/graphs/example/coverage-Telekom-NR-100.png)
+![Example Usage (RSRP)](.example/coverage-Telekom-NR-100.png)
 
 ```sh
 python main.py \
@@ -72,7 +72,7 @@ python main.py \
     --signal-strengths ./data/SIGNAL_STRENGTH.csv
 ```
 
-![Example Usage (RSRQ)](./out/graphs/example/coverage-Telekom-NR-rsrq-100.png)
+![Example Usage (RSRQ)](.example/coverage-Telekom-NR-rsrq-100.png)
 
 ```sh
 python main.py \
@@ -86,4 +86,4 @@ python main.py \
     --display-info ./data/DISPLAY_INFO.csv
 ```
 
-![Example Usage (Display Info)](./out/graphs/example/override-Telekom-NR-100.png)
+![Example Usage (Display Info)](.example/override-Telekom-NR-100.png)
